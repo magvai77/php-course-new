@@ -11,4 +11,8 @@ class IndexController extends Controller
 	{
 		$this->render('pages:about');
 	}
+		public function contactsAction($request)
+	{
+		$this->render('pages:contacts');
+	}
 }

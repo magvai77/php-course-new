@@ -1,13 +1,17 @@
 <?php
-function sayHelloWorld($count = 1)
+require_once __DIR__ . '/../../library/index.php';
+
+function sayHello($count)
 {
 	$result = '';
-	for ($i = 0; $i < $count; $i++) {
-		$result .= 'Hello World!<br>';
+	for ($i=0; $i < $count; $i++) {
+		$result .= "<br/>Hello";
 	}
 	return $result;
 }
 
-$description = 'Вывести 10 раз Hello World.';
-$inputData = '$count = 10';
-$result = sayHelloWorld(10);
+function taskFunction($data)
+{
+	$count = isset($data[0]) ? $data[0] : 7;
+	return sayHello($count);
+}

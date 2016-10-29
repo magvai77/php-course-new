@@ -10,5 +10,5 @@
 	</head>
 	<body>
 		<div class="header">
-			<a href="/">Tasks of ifedko</a>
+			<a href="/">Tasks of magvai</a>
 		</div>

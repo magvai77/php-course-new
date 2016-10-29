@@ -6,27 +6,58 @@
  */
 function getTasksMap ()
 {
-	return [
-		'loops' => [
-			'title' => 'Loops',
-			'tasks' => [
-				1,
-				2
+	return  [
+			"loops" => [
+				"title" => "Loops",
+				"tasks" => [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			],
+			"arrays1" => [
+				"title" => "Arrays 1",
+				"tasks" => [1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			],
+			"arrays2" => [
+				"title" => "Arrays 2",
+				"tasks" => [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			],
+			"function" => [
+				"title" => "Function",
+				"tasks" => [
+					1,
+					2,
+					3,
+					4,
+					5
+				]
+			],
+			"mysql" => [
+				"title" => "MySQL",
+				"tasks" => [
+					1,
+					2,
+					3
+				]
 			]
-		],
-		'arrays_1' => [
-			'title' => 'Arrays 1',
-			'tasks' => [
-				1
-			]
-		],
-		'mysql' => [
-			'title' => 'MySQL',
-			'tasks' => [
-				1
-			]
-		]
-	];
+		];
 }
 
 /**

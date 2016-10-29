@@ -15,6 +15,10 @@ $config = [
 			'controller' => 'IndexController',
 			'action' => 'aboutAction'
 		],
+		'/contacts' => [
+			'controller' => 'IndexController',
+			'action' => 'contactsAction'
+		],
 		'/tasks/([a-zA-Z0-9]{1,})/([0-9]{1,})' => [
 			'controller' => 'TaskController',
 			'action' => 'indexAction',
