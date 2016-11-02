@@ -56,7 +56,17 @@ function getTasksMap ()
 					2,
 					3
 				]
-			]
+			],
+			"classes" => [
+				"title" => "Classes",
+				"tasks" => [
+					1,
+					2,
+					3,
+					4,
+					5
+				]
+			],
 		];
 }
 

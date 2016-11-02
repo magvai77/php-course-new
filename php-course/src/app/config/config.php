@@ -23,9 +23,14 @@ $config = [
 			'controller' => 'TaskController',
 			'action' => 'indexAction',
 			'parameters' => ['section', 'task']
+		],
+		'/taskclasses/([0-9]{1,})' => [
+			'controller' => 'TaskClasses',
+			'action' => 'classesAction',
+			'parameters' => ['task']
 		]
 	],
-	'path_to_views' => '/src/app/tasksApp/view/'
+		'path_to_views' => '/src/app/tasksApp/view/'
 ];
 
 return $config;
